@@ -65,7 +65,11 @@
           </div>
           <div class="form-group">
             <label for="price">Ticket price for this category?</label>
-            <input type="number" class="form-control" id="price" placeholder="Price per Ticket">
+            <div class="input-group-prepend">
+              <span class="input-group-text">₹</span>
+              <input type="number" class="form-control" id="price" placeholder="Price per Ticket">
+            </div>
+
           <div class="alert alert-danger al" role="alert">
           Enter a correct price!
           </div>
