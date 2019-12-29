@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Blog</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="dhdud">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/multiple.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Grid row -->
+  <div class="row justify-content-center">
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6">
+
+    <!--Panel-->
+    <div class="card">
+      <h3 class="card-header light-blue lighten-1 white-text text-uppercase font-weight-bold text-center py-5">Multiple Ticket
+        </h3>
+
+      <div class="card-body">
+        <ul class="list-group list">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+
+
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+
+
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+
+
+          </li>
+
+        </ul>
+
+        <!-- Default form group -->
+        <form id="myform">
+          <!-- Default input -->
+          <div class="form-group">
+            <label for="category">Category?</label>
+            <input type="text" class="form-control" id="category" placeholder="Example: Entry,food,etc">
+          </div>
+          <!-- Default input -->
+          <div class="form-group">
+            <label for="desciption">Description</label>
+            <input type="text" class="form-control" id="desciption" placeholder="Desciption">
+          </div>
+          <div class="form-group">
+            <label for="price">Ticket price for this category?</label>
+            <input type="number" class="form-control" id="price" placeholder="Price per Ticket">
+          <div class="alert alert-danger al" role="alert">
+          Enter a correct price!
+          </div>
+        </div>
+          <h4>Total cost Rs <span id="cost">0</span></h4>
+          <button type="submit" class="btn btn-primary butc">+ Category</button>
+        </form>
+        <!-- Default form group -->
+        <div><button type="button" class="btn btn-success butd" name="button" onclick="booked()">Book</button></div>
+        <div class="alert alert-success alc" role="alert">
+          Congratulation!Your Ticket is booked.
+        </div>
+
+      </div>
+    </div>
+    <!--/.Panel-->
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+</div>
+
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" src="js/multiple.js"></script>
+
+</body>
+</html>

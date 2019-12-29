@@ -1,0 +1,15 @@
+.div1{
+  position: relative;
+}
+.next{
+  position: absolute;
+  right: 10%;
+}
+.divf{
+  visibility: hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.divfr{
+  visibility: visible;
+}

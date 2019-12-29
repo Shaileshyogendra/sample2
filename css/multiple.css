@@ -1,0 +1,27 @@
+.container{
+  margin-top: 1%;
+}
+.butc{
+  margin-left: 50%;
+}
+.alc{
+  visibility: collapse;
+}
+.al{
+  visibility: collapse;
+}
+.d-flex{
+  border: none;
+}
+.butd{
+  margin-left: 63%;
+}
+p{
+  display: inline;
+}
+.list{
+  font-weight: bold;
+}
+.divfr{
+  visibility: visible;
+}
